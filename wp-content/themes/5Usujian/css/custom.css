@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* Have fun adding your style here :) - PS: At all times this file should contain a comment or a rule, otherwise opera might act buggy :( */
+
+/* General Custom CSS */
+
+@font-face {
+  font-family: 'iconfont';  /* project id 254278 */
+  src: url('//at.alicdn.com/t/font_ktmu2j6iojuac3di.eot');
+  src: url('//at.alicdn.com/t/font_ktmu2j6iojuac3di.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_ktmu2j6iojuac3di.woff') format('woff'),
+  url('//at.alicdn.com/t/font_ktmu2j6iojuac3di.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_ktmu2j6iojuac3di.svg#iconfont') format('svg');
+}
+
+#top .avia-font-entypo-fontello, body .avia-font-entypo-fontello, html body [data-av_iconfont='iconfont']:before{ font-family: 'iconfont'; }
+/*
+Desktop Styles
+================================================== */
+/* Note: Add new css to the media query below that you want to only effect the desktop view of your site */
+
+@media only screen and (min-width: 768px) {
+  /* Add your Desktop Styles here */
+
+}
+
+
+
+/*
+Mobile Styles
+================================================== */
+/* Note: Add new css to the media query below that you want to only effect the Mobile and Tablet Portrait view */
+
+@media only screen and (max-width: 767px) {
+  /* Add your Mobile Styles here */
+
+}
